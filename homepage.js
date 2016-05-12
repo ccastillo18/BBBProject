@@ -5,7 +5,9 @@ $(document).ready(function() {
     });
     playTrack("261372196");
     
+    
 });
+
 
 
 function searchTracks(mood) {
@@ -29,5 +31,10 @@ function playTrack(trackid) {
     currentSong= player;
     currentSong.play();
   });
+  
+  $("#picture").click(funcion(){
+    $('#myModal').modal(options);
+    
+    });
   
 }
