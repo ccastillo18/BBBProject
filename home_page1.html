@@ -8,30 +8,10 @@
     <script src="//connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
     <script src="homepage.js"></script>
+    <script src="https://rawgit.com/kylefox/jquery-modal/master/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body>
-    
-    <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
     
     <div id="header">
         <h1>
@@ -46,7 +26,7 @@
         <div class="row">
 
             <div class="col-lg-3">
-                <img class="picture" id="picture" src="https://i.ytimg.com/vi/cl3Sq9vW01c/maxresdefault.jpg" class="img-responsive">g
+                <a href="#ex1" rel="modal:open"><img class="picture" id="makeup" src="https://i.ytimg.com/vi/cl3Sq9vW01c/maxresdefault.jpg" class="img-responsive"></a>
             </div>
             <div class="col-lg-3">
                 <img class="picture" src="https://klairkia.files.wordpress.com/2010/06/beyonc2b01.jpg" class="img-responsive">
@@ -66,18 +46,9 @@
 
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
+     <div id="ex1" style="display:none;" class="modal">
+    <p>Thanks for clicking.  That felt good.  <a href="#" rel="modal:close">Close</a> or press ESC</p>
+  </div>
 
 </body>
 

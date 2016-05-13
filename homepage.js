@@ -32,9 +32,8 @@ function playTrack(trackid) {
     currentSong.play();
   });
   
-  $("#picture").click(funcion(){
-    $('#myModal').modal(options);
-    
-    });
+$("#makeup").click(function(){
+  $("#myModal").modal(options);
+})
   
 }
