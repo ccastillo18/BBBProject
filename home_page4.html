@@ -8,6 +8,7 @@
     <script src="//connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
     <script src="homepage.js"></script>
+    <script src="https://rawgit.com/kylefox/jquery-modal/master/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body>
@@ -21,25 +22,100 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3">
-                <img id="picture" src="http://aelida.com/wp-content/uploads/2014/05/light-makeup-and-nude-lips.jpg" class="img-responsive">
-
+                <a href="#ex1" rel="modal:open"><img id="picture" src="http://enjoystyles.com/wp-content/uploads/2015/12/1155.jpg" class="img-responsive"></a>
             </div>
-
             <div class="col-lg-3">
-                <img id="picture" src="https://klairkia.files.wordpress.com/2010/06/beyonc2b01.jpg" class="img-responsive">
+                <a href="#ex2" rel="modal:open"><img id="picture" src="https://s-media-cache-ak0.pinimg.com/736x/76/46/2d/76462ddc8f18585f6fd295a50f0f4b1f.jpg" class="img-responsive"></a>
             </div>
-
             <div class="col-lg-3">
-                <img id="picture" class="img-responsive" src="http://www.beautytipsntricks.com/wp-content/uploads/2014/09/cda82455689274565b94de46dc08d486.jpg?052b98">
+                <a href="#ex3" rel="modal:open"><img id="picture" class="img-responsive" src="https://s-media-cache-ak0.pinimg.com/736x/36/2e/57/362e572e461ed168cea67171b7128a18.jpg"></a>
             </div>
-
             <div class="col-lg-3">
-                <img id="picture" class="img-responsive" src="http://modernfashionblog.com/wp-content/uploads/2016/01/15-Best-Valentines-Day-Face-Makeup-Ideas-Styles-Looks-2016-8.jpg">
+                <a href="#ex4" rel="modal:open"><img id="picture" class="img-responsive" src="https://s-media-cache-ak0.pinimg.com/236x/25/94/f1/2594f1276a9feb720d25700de3e5f565.jpg"></a>
             </div>
-
-            <div class="col-lg-3">
-                <img id="picture" class="img-responsive">
-            </div>
-
         </div>
     </div>
+    
+    <div id="ex1" style="display:none;" class="modal">
+        <h1>Tutorial</h1>
+
+        <div class="modal-body">
+            <div class="container col-md-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img id="" class="img-responsive" src="https://s-media-cache-ak0.pinimg.com/736x/53/a4/37/53a437911fa753e8652d3265c3f0d9e4.jpg">
+                    </div>
+
+                    <div class="col-md-6">
+                         Get the Look...
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="ex2" style="display:none;" class="modal">
+        <h1>Tutorial</h1>
+        
+        <div class="modal-body">
+            <div class="container col-md-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img id="" class="img-responsive" src="https://s-media-cache-ak0.pinimg.com/736x/e7/df/62/e7df62df7231e69f259dcb20349e88c2.jpg">
+                    </div>
+
+                    <div class="col-md-6">
+                         Get the Look... 
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ex3" style="display:none;" class="modal">
+        <h1>Tutorial</h1>
+        
+        <div class="modal-body">
+            <div class="container col-md-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img id="modalPics" class="img-responsive" src="https://s-media-cache-ak0.pinimg.com/736x/f4/f0/55/f4f0559cae590b6804a4a361fc573ddb.jpg">
+                    </div>
+
+                    <div class="col-md-6">
+                        Get the Look... 
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ex4" style="display:none;" class="modal">
+        <h1>Tutorial</h1>
+        
+        <div class="modal-body">
+            <div class="container col-md-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img id="modalPics" class="img-responsive" src="https://s-media-cache-ak0.pinimg.com/236x/98/5c/b8/985cb868f5edfa8c6041356eb8b7c747.jpg">
+                    </div>
+
+                    <div class="col-md-6">
+                         Get the Look...
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+</body>
+
+</html>

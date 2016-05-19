@@ -8,6 +8,7 @@
     <script src="//connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
     <script src="homepage.js"></script>
+    <script src="https://rawgit.com/kylefox/jquery-modal/master/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body>
@@ -18,26 +19,116 @@
         </h1>
     </div>
     <br></br>
+
+    <div class="container">
+
+        <a href="./quiz_page.html">
+            <button id="goQuiz">Take the Quiz!</button>
+        </a>
+        <br></br>
+    </div>
+    <br></br>
     <div class="container">
         <div class="row">
             <div class="col-lg-3">
-                <img id="picture" src="http://aelida.com/wp-content/uploads/2014/05/light-makeup-and-nude-lips.jpg" class="img-responsive">
+                <a href="#ex1" rel="modal:open"><img id="picture" src="https://i.ytimg.com/vi/pa5VraxWrmk/hqdefault.jpg" class="img-responsive"></a>
             </div>
             <div class="col-lg-3">
-                <img id="picture" src="https://klairkia.files.wordpress.com/2010/06/beyonc2b01.jpg" class="img-responsive">
-            </div>
-
-            <div class="col-lg-3">
-                <img id="picture" class="img-responsive" src="http://www.beautytipsntricks.com/wp-content/uploads/2014/09/cda82455689274565b94de46dc08d486.jpg?052b98">
+                <a href="#ex2" rel="modal:open"><img id="picture" src="http://wearandcheer.com/wp-content/uploads/2015/01/Applying-Makeup-wearandcheer.com_.jpg" class="img-responsive"></a>
             </div>
 
             <div class="col-lg-3">
-                <img id="picture" class="img-responsive" src="http://modernfashionblog.com/wp-content/uploads/2016/01/15-Best-Valentines-Day-Face-Makeup-Ideas-Styles-Looks-2016-8.jpg">
+                <a href="#ex3" rel="modal:open"><img id="picture" class="img-responsive" src="http://stylishmods.com/wp-content/uploads/2015/04/smokey-eye-makeup-for-small-eyes-7.jpg"></a>
             </div>
 
             <div class="col-lg-3">
-                <img id="picture" class="img-responsive">
+                <a href="#ex4" rel="modal:open"><img id="picture" class="img-responsive" src="https://s-media-cache-ak0.pinimg.com/736x/94/f7/c9/94f7c9ed1de7c4b33ba23a0d90af5e95.jpg"></a>
             </div>
 
         </div>
+
     </div>
+    <div id="ex1" style="display:none;" class="modal">
+        <h1>Tutorial</h1>
+
+        <div class="modal-body">
+            <div class="container col-md-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img id="" class="img-responsive" src="https://s-media-cache-ak0.pinimg.com/236x/87/d3/d9/87d3d92b7c9ea8220e8b7b311316be3a.jpg">
+                    </div>
+
+                    <div class="col-md-6">
+                        Get the Look... 
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+
+    <div id="ex2" style="display:none;" class="modal">
+        <h1>Tutorial</h1>
+        
+        <div class="modal-body">
+            <div class="container col-md-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img id="" class="img-responsive" src="http://4.bp.blogspot.com/-9m2g4QrYEqE/USfLHsKXLeI/AAAAAAAAAKA/blhcva1cSXU/s1600/makeup1.jpg">
+                    </div>
+
+                    <div class="col-md-6">
+                         Get the Look...
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ex3" style="display:none;" class="modal">
+        <h1>Tutorial</h1>
+        
+        <div class="modal-body">
+            <div class="container col-md-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img id="" class="img-responsive" src="http://eyemakeupdesign.com/wp-content/uploads/2014/07/gold-glitter-eye-makeup-tutorial.jpg">
+                    </div>
+
+                    <div class="col-md-6">
+                         Get the Look... 
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ex4" style="display:none;" class="modal">
+        <h1>Tutorial</h1>
+        
+        <div class="modal-body">
+            <div class="container col-md-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img id="" class="img-responsive" src="http://images.beautyandmakeupmatters.com/2015/12/Eye-Makeup-Tutorial-Dark-Green-Smokey-Eyes.jpg">
+                    </div>
+
+                    <div class="col-md-6">
+                         Get the Look...
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
