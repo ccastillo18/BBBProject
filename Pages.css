@@ -27,3 +27,8 @@ body {
 li {
     font-size:20px;
 }
+
+#picture {
+    height: 285px;
+    width: 250px;
+}

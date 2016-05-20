@@ -3,9 +3,9 @@
     top: 50%;
     left: 50%;
     margin-top: -300px;
-    margin-left: -450px;
+    margin-left: -350px;
     background-color:white;
-    height:450px;
+    height:460px;
     width:700px;
     color:black;
     text-align:center;
@@ -25,12 +25,86 @@
 }
 
 #goQuiz:hover {
-    background-color:#ff8566;
+    background-color:#b30047;
     border-style:solid;
-    border-color:#ff8566;
+    border-color:#b30047;
 }
 
 #modalPics {
     height:350px;
    
 }
+
+#eyeshadow1{
+    height: 150px;
+    position: fixed;
+    margin-left: -20;
+}
+
+#eyeshadow2{
+    height: 150px;
+    position: fixed;
+    
+}
+
+#eyeshadow3{
+    height: 100px;
+    position: fixed;
+    margin-left: 55px;
+    
+}
+
+#eyeshadow4{
+    height: 150px;
+    position: fixed;
+    margin-left: 55px;
+    
+}
+
+#eyeshadow5{
+    height: 150px;
+    position: fixed;
+    margin-left: 35px;
+    
+}
+
+#eyeshadow6{
+    height: 150px;
+    position: fixed;
+    margin-left: 55px;
+    
+}
+
+#eyeshadow7{
+    height: 150px;
+    position: fixed;
+    margin-left: -60px;
+    
+}
+
+#eyeshadow8{
+    height: 150px;
+    position: fixed;
+    margin-left: -10px;
+    
+}
+
+#eyeshadow9{
+    height: 150px;
+    position: fixed;
+    margin-left: 40px;
+    
+}
+#eyeshadow10{
+    height: 150px;
+    position: fixed;
+    margin-left: 40px;
+}
+
+#eyeshadow11{
+    height: 150px;
+    position: fixed;
+    margin-left: 40px;
+}
+
+
